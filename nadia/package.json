@@ -1,0 +1,33 @@
+{
+  "name": "nadia",
+  "version": "1.0.0",
+  "description": "Nadia's Garden Reservations",
+  "main": "bin/www",
+  "repository": "git@github.com:fluxsauce/nadia.git",
+  "author": "Jon Peck <jpeck@fluxsauce.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "debug": "cross-env DEBUG=nadia:* nodemon",
+    "start": "node bin/www"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "cookie-parser": "~1.4.6",
+    "debug": "^4.3.6",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "knex": "^0.21.21",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3",
+    "serve-favicon": "^2.5.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.4"
+  },
+  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
+}
